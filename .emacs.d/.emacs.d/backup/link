@@ -1,0 +1,2 @@
+#!/bin/zsh
+ln -s $HOME/Dropbox/dotfiles/.zshrc $HOME/.zshrc

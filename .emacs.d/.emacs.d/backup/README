@@ -1,0 +1,24 @@
+google chrome
+Skype
+Dropbox
+Adium
+google japanese input
+LingrReader
+YoruFukurou
+pypy
+zshの設定(.zshrc)
+
+curl -O https://bitbucket.org/pypy/pypy/downloads/pypy-1.6-osx64.tar.bz2
+tar zxf pypy-1.6-osx64.tar.bz2
+
+$HOME/Dropbox/usr/src/pypy-1.6/bin/easy_install virtualenv
+$HOME/Dropbox/usr/src/pypy-1.6/bin/easy_install virtualenvwrapper
+
+.bashrc
+export WORKON_HOME=$HOME/.virtualenvs
+source $HOME/Dropbox/usr/src/pypy-1.6/bin/virtualenvwrapper.sh
+
+curl -O http://python-distribute.org/distribute_setup.py
+$HOME/Dropbox/usr/src/pypy-1.6/bin/pypy distribute_setup.py
+
+$HOME/Dropbox/Environment/pypy-1.6/bin/virtualenv -p $HOME/Dropbox/Environment/pypy-1.6/bin/pypy _ --no-site-packages --distribute
